@@ -1,0 +1,14 @@
+### Registrar usuario
+POST http://localhost:8080/usuarios
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nombre": "Andres",
+  "correo": "andres@gmail.com"
+}
+
+###
+
+### Listar usuarios
+GET http://localhost:8080/usuarios
